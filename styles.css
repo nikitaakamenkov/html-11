@@ -1,0 +1,110 @@
+* {
+  box-sizing: border-box;
+}
+body { 
+
+background-color: #f7f7f7;/*Фоновоый цвет*/
+padding: 15px; /*Отступы вокруг страницы*/
+}
+.page-wrapper { 
+overflow: hidden;
+  max-width: 375px; /*Максимальная ширина страницы*/
+    margin: auto; /*Центрирование страницы*/
+    background-color: #ffffff; /*Фоновый цвет страницы*/
+    box-shadow: 0px 0px 30px rgba(128,127,127,0.25); 
+    border-radius: 20px;
+   
+}
+
+.button.vk {
+
+  background: #ffffff;
+
+}
+.button.ya {
+  background: #cc0000;
+}
+.button.yt {
+  background: #e1306c;
+}
+
+.header {
+   padding: 40px 42px 145px; /*Отступ снизу*/
+background:linear-gradient(0deg,regba(58,58,58,0.6),rgba(58,58,58,0.6)); border-radius: 0px 0px 90px 90px; /*Фоновое изображение*/
+background-color:#ffffff;
+
+
+
+}
+
+.user    {   
+margin-top: -79px;
+  text-align: center;
+background: #FFFFFF;
+box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.5);
+border-radius: 10px;
+padding-bottom: 20px;
+
+}
+
+.user-avatar {
+  margin-top: -43px;
+  border-radius: 50%; /*Круглая форма аватара*/
+object-fit: cover;
+  border: 4px solid #FFFFFF; /*Белая рамка вокруг аватара*/
+}
+.user-name {
+margin-top: 8px;
+margin-bottom: 4px;
+  font-weight: 500;
+font-size:  16px;
+line-height: 19px;
+
+}
+.ser-description{
+font-weight: 500;
+font-size:12;
+line-height: 15px;
+color: #6a6a6a;
+margin-top: 4px;
+
+
+}
+.card {
+
+  background: #ffffff;
+box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
+margin: top 12px;
+margin-bottom: 12px;
+padding: 20px;
+}
+
+.buttons  {
+
+display: flex;
+justify-content: center;
+max-width: 260px;
+margin: auto;
+gap: 10px;
+}
+
+.button   {
+background-color: #000;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-shrink: 1;
+height: 40px;
+width: 100%;
+border-radius: 5px;
+text-decoration: none;
+color: #fff;
+font-weight: 500;
+font-size: 12px;
+line-height:15px ;
+gap:10px;
+margin-bottom: 6px;
+
+}
+
